@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(assistant)
+project(assistant_aura)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   message_generation
-  rtspeech
+  rtspeech_aura
 )
 
 ## System dependencies are found with CMake's conventions
